@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- custom stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+    <title>Document</title>
+</head>
+<body>
+
+
+<select id="list">
+    <option value="consumption">Cel mai mic consum de combustibil</option>
+    <option value="horsepower">Cei mai multi cai putere</option>
+    <option value="acceleration">Cea mai rapida acceleratie</option>
+</select>
+
+<div id="popup"></div>
+
+<div class="displayButtons btn-group btn-group-toggle" data-toggle="buttons">
+    <label class="btn btn-secondary active">
+      <input type="radio" name="options" id="option1" autocomplete="off"> <i class="fas fa-th-list"></i>
+    </label>
+    <label class="btn btn-secondary">
+      <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fas fa-th-large"></i>
+    </label>
+    <label class="btn btn-secondary">
+      <input type="radio" name="options" id="option3" autocomplete="off"> <i class="fas fa-th"></i>
+    </label>
+  </div>
+
+<div class="container" id="main-container">
+    <div class="row">
+
+    </div>
+  </div>
+
+  <script src ="app.js" type="module"></script>
+
+</body>
+</html>

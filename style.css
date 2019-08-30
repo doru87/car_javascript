@@ -1,0 +1,32 @@
+#list{
+    position: relative;
+    margin-top:20px;
+    margin-left:80px;
+}
+
+.displayButtons{
+    position: relative;
+    margin-top:0;
+    margin-left:200px;
+}
+.container{
+    position: relative;
+    margin-top:150px;
+    margin:0 0 0 0 auto;
+}
+.car{
+    margin-left:20px;
+    margin-top:100px;
+}
+
+#popup {
+
+    z-index: 999;
+    border-radius: 4px;
+    border: 1px solid rgb(225, 225, 225);
+    background-color: rgb(113, 149, 151);
+    position: absolute;
+    width: 250px;
+    height: 220px;
+    display:none; 
+}
